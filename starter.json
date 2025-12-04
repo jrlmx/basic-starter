@@ -1,0 +1,23 @@
+{
+    "installer": {
+        "args": ["--no-interaction", "--database=sqlite", "--pest"]
+    },
+    "files": {
+        "remove": []
+    },
+    "php": {
+        "production": [],
+        "development": [],
+        "remove": []
+    },
+    "js": {
+        "development": [
+            "prettier-plugin-tailwindcss",
+            "prettier-plugin-blade",
+            "prettier"
+        ],
+        "production": [],
+        "remove": []
+    },
+    "commands": []
+}
