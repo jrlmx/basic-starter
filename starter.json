@@ -2,19 +2,19 @@
   "files": {
     "remove": []
   },
-  "php": {
-    "production": [],
-    "development": [],
-    "remove": []
-  },
-  "js": {
-    "development": [
-      "prettier-plugin-tailwindcss",
-      "prettier-plugin-blade",
-      "prettier"
-    ],
-    "production": [],
-    "remove": []
+  "packages": {
+    "managers": [
+      {
+        "name": "npm",
+        "development": [
+          "prettier-plugin-tailwindcss",
+          "prettier-plugin-blade",
+          "prettier"
+        ],
+        "production": [],
+        "remove": []
+      }
+    ]
   },
   "commands": []
 }
